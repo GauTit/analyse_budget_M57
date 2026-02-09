@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test.py:*)",
+      "Bash(python generate_bilan.py:*)",
+      "Bash(python parser_budget.py:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(python analyser_pdf_complet.py:*)",
+      "Bash(python:*)",
+      "Bash(start rapport_ameliore.pdf)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(start \"output/rapport_analyse_mono_annee.pdf\")",
+      "Bash(del \"src\\converter.py\" \"src\\utils.py\" \"src\\refactor_script.py\")",
+      "Bash(del:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

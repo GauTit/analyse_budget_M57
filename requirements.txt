@@ -1,0 +1,1 @@
+pip install pandas odfpy reportlab matplotlib python-docx openai python-dotenv

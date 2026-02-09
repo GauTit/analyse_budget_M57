@@ -1,0 +1,1850 @@
+{
+  "info_commune": {
+    "commune": "Le Poizat-Lalleyriat",
+    "siren": "200053395",
+    "code_insee": "01204",
+    "population": 762,
+    "tranche_population": "3",
+    "departement": "Ain",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  "nb_communes_strate": 11253,
+  "statistiques": {
+    "2111": {
+      "moyenne": 917.9216666666658,
+      "mediane": -3175.0,
+      "nb_communes": 6,
+      "moyenne_par_hab": 3.573201574109991
+    },
+    "73111": {
+      "moyenne": 521641.9,
+      "mediane": 385065.0,
+      "nb_communes": 10,
+      "moyenne_par_hab": 536.3114040812512
+    },
+    "624": {
+      "moyenne": -12688.581666666667,
+      "mediane": -3869.0,
+      "nb_communes": 6,
+      "moyenne_par_hab": -12.390003533817433
+    },
+    "7328": {
+      "moyenne": 7364.0,
+      "mediane": 7364.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 8.25560538116592
+    },
+    "60624": {
+      "moyenne": -205.2,
+      "mediane": -205.2,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.23004484304932735
+    },
+    "65568": {
+      "moyenne": -8125.467999999999,
+      "mediane": -1850.4,
+      "nb_communes": 5,
+      "moyenne_par_hab": -7.717520708876651
+    },
+    "7751": {
+      "moyenne": 55880.0,
+      "mediane": 7400.0,
+      "nb_communes": 5,
+      "moyenne_par_hab": 46.42971699802991
+    },
+    "10222": {
+      "moyenne": 59985.739,
+      "mediane": 89568.33,
+      "nb_communes": 10,
+      "moyenne_par_hab": 62.46244257323182
+    },
+    "70312": {
+      "moyenne": 20.0,
+      "mediane": 20.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.030211480362537766
+    },
+    "198": {
+      "moyenne": -265.85,
+      "mediane": -265.85,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.1998872180451128
+    },
+    "64131": {
+      "moyenne": -2147.03,
+      "mediane": -2147.03,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.805744322960471
+    },
+    "7391112": {
+      "moyenne": -305.0,
+      "mediane": -305.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.5722326454033771
+    },
+    "741128": {
+      "moyenne": 2091.5,
+      "mediane": 4154.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 2.058980243894037
+    },
+    "6042": {
+      "moyenne": -36662.79833333333,
+      "mediane": -34824.77,
+      "nb_communes": 6,
+      "moyenne_par_hab": -35.25057217824556
+    },
+    "65742": {
+      "moyenne": -3000.0,
+      "mediane": -3000.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -2.955665024630542
+    },
+    "21318": {
+      "moyenne": -11226.54,
+      "mediane": -11226.54,
+      "nb_communes": 1,
+      "moyenne_par_hab": -9.442001682085786
+    },
+    "626": {
+      "moyenne": -8781.786666666667,
+      "mediane": -5035.41,
+      "nb_communes": 9,
+      "moyenne_par_hab": -9.40914176232561
+    },
+    "741126": {
+      "moyenne": 11185.18,
+      "mediane": 11185.18,
+      "nb_communes": 1,
+      "moyenne_par_hab": 6.9516345556246115
+    },
+    "744": {
+      "moyenne": 3430.6237499999997,
+      "mediane": 2620.1,
+      "nb_communes": 8,
+      "moyenne_par_hab": 3.346050535657696
+    },
+    "65888": {
+      "moyenne": -2774.792,
+      "mediane": -457.97,
+      "nb_communes": 10,
+      "moyenne_par_hab": -2.367930928534102
+    },
+    "6251": {
+      "moyenne": -227.72,
+      "mediane": -227.72,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.19152228763666948
+    },
+    "64112": {
+      "moyenne": -613.37,
+      "mediane": -613.37,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.5158704793944491
+    },
+    "2135": {
+      "moyenne": -62412.625,
+      "mediane": -8996.94,
+      "nb_communes": 4,
+      "moyenne_par_hab": -67.39535155940754
+    },
+    "21611": {
+      "moyenne": -650.0,
+      "mediane": -650.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.40397762585456803
+    },
+    "280421": {
+      "moyenne": 516.12,
+      "mediane": 516.12,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.32077066500932255
+    },
+    "10226": {
+      "moyenne": 17356.673333333332,
+      "mediane": 6720.16,
+      "nb_communes": 9,
+      "moyenne_par_hab": 15.314491876736026
+    },
+    "761": {
+      "moyenne": 3238.145,
+      "mediane": 8.23,
+      "nb_communes": 4,
+      "moyenne_par_hab": 3.8537448097450384
+    },
+    "6450": {
+      "moyenne": -155136.25,
+      "mediane": -93962.66,
+      "nb_communes": 9,
+      "moyenne_par_hab": -158.54925676312058
+    },
+    "777": {
+      "moyenne": 2166.0,
+      "mediane": 2166.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 4.063789868667917
+    },
+    "748388": {
+      "moyenne": 21374.0,
+      "mediane": 21374.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 25.445238095238096
+    },
+    "6475": {
+      "moyenne": -56.5,
+      "mediane": -56.5,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.04751892346509672
+    },
+    "28135": {
+      "moyenne": 7688.89,
+      "mediane": 7688.89,
+      "nb_communes": 1,
+      "moyenne_par_hab": 11.61463746223565
+    },
+    "611": {
+      "moyenne": -73090.795,
+      "mediane": -8995.23,
+      "nb_communes": 8,
+      "moyenne_par_hab": -73.64358428280141
+    },
+    "2158": {
+      "moyenne": -15781.371111111112,
+      "mediane": -3658.6,
+      "nb_communes": 9,
+      "moyenne_par_hab": -22.73698438263636
+    },
+    "74748": {
+      "moyenne": 17400.0,
+      "mediane": 17400.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 10.8141702921069
+    },
+    "739215": {
+      "moyenne": -172539.36,
+      "mediane": -172539.36,
+      "nb_communes": 1,
+      "moyenne_par_hab": -107.23390926041019
+    },
+    "65811": {
+      "moyenne": -6780.96,
+      "mediane": -5185.92,
+      "nb_communes": 2,
+      "moyenne_par_hab": -7.101871664446977
+    },
+    "74741": {
+      "moyenne": 1312.325,
+      "mediane": 2537.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 2.446125859440096
+    },
+    "73221": {
+      "moyenne": 22587.0,
+      "mediane": 11425.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": 19.490672746754285
+    },
+    "6542": {
+      "moyenne": -32927.67,
+      "mediane": -32927.67,
+      "nb_communes": 1,
+      "moyenne_par_hab": -61.77799249530957
+    },
+    "627": {
+      "moyenne": -569.4088888888889,
+      "mediane": -41.1,
+      "nb_communes": 9,
+      "moyenne_par_hab": -0.6454004011373423
+    },
+    "613": {
+      "moyenne": -16174.204285714284,
+      "mediane": -5430.84,
+      "nb_communes": 7,
+      "moyenne_par_hab": -16.22596566358162
+    },
+    "75814": {
+      "moyenne": 11.88,
+      "mediane": 11.88,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.014142857142857145
+    },
+    "65818": {
+      "moyenne": -4431.883333333334,
+      "mediane": -3519.96,
+      "nb_communes": 3,
+      "moyenne_par_hab": -3.8303500735938214
+    },
+    "6415": {
+      "moyenne": -4650.0,
+      "mediane": -4650.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -2.8899937849596022
+    },
+    "6067": {
+      "moyenne": -3990.0128571428572,
+      "mediane": -3225.49,
+      "nb_communes": 7,
+      "moyenne_par_hab": -3.80010279587296
+    },
+    "7584": {
+      "moyenne": 407.82,
+      "mediane": 407.82,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.45719730941704034
+    },
+    "2157": {
+      "moyenne": -31525.19,
+      "mediane": -1892.74,
+      "nb_communes": 4,
+      "moyenne_par_hab": -35.51672232332039
+    },
+    "633": {
+      "moyenne": -10447.103333333333,
+      "mediane": -5059.77,
+      "nb_communes": 9,
+      "moyenne_par_hab": -10.881473265121208
+    },
+    "6162": {
+      "moyenne": -6120.075,
+      "mediane": -251.58,
+      "nb_communes": 2,
+      "moyenne_par_hab": -6.6323838032124005
+    },
+    "2183": {
+      "moyenne": -5141.69,
+      "mediane": -5141.69,
+      "nb_communes": 1,
+      "moyenne_par_hab": -5.065704433497537
+    },
+    "28158": {
+      "moyenne": 4524.0,
+      "mediane": 4524.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 6.833836858006042
+    },
+    "629": {
+      "moyenne": 57.1,
+      "mediane": 57.1,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.06797619047619048
+    },
+    "7478": {
+      "moyenne": 21304.96,
+      "mediane": 21304.96,
+      "nb_communes": 1,
+      "moyenne_par_hab": 23.132421281216068
+    },
+    "7391118": {
+      "moyenne": -2492.0,
+      "mediane": -2492.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -2.7937219730941703
+    },
+    "6332": {
+      "moyenne": -184.0,
+      "mediane": -184.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.15475189234650968
+    },
+    "73218": {
+      "moyenne": 19155.92,
+      "mediane": 19155.92,
+      "nb_communes": 1,
+      "moyenne_par_hab": 16.1109503784693
+    },
+    "775": {
+      "moyenne": 14350.0,
+      "mediane": 14350.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 12.068965517241379
+    },
+    "6237": {
+      "moyenne": -4943.0,
+      "mediane": -4943.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.157275021026073
+    },
+    "2151": {
+      "moyenne": -169569.675,
+      "mediane": -113544.36,
+      "nb_communes": 4,
+      "moyenne_par_hab": -221.16843984248118
+    },
+    "1641": {
+      "moyenne": 333174.55500000005,
+      "mediane": -8979.05,
+      "nb_communes": 10,
+      "moyenne_par_hab": 389.3965873105932
+    },
+    "2115": {
+      "moyenne": 169280.91999999998,
+      "mediane": 169280.91999999998,
+      "nb_communes": 1,
+      "moyenne_par_hab": 105.20877563704163
+    },
+    "623": {
+      "moyenne": -26268.337777777775,
+      "mediane": -10724.46,
+      "nb_communes": 9,
+      "moyenne_par_hab": -27.88824568163568
+    },
+    "60618": {
+      "moyenne": -293.15,
+      "mediane": -293.15,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.3286434977578475
+    },
+    "6453": {
+      "moyenne": -50639.78,
+      "mediane": -50639.78,
+      "nb_communes": 1,
+      "moyenne_par_hab": -42.59022708158116
+    },
+    "73172": {
+      "moyenne": 349441.18,
+      "mediane": 349441.18,
+      "nb_communes": 1,
+      "moyenne_par_hab": 379.4149619978284
+    },
+    "64168": {
+      "moyenne": -40934.7,
+      "mediane": -7103.14,
+      "nb_communes": 2,
+      "moyenne_par_hab": -29.897124663449148
+    },
+    "2812": {
+      "moyenne": 6097.0,
+      "mediane": 6097.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 9.209969788519638
+    },
+    "61551": {
+      "moyenne": -9581.936,
+      "mediane": -3263.1,
+      "nb_communes": 10,
+      "moyenne_par_hab": -10.252893311703367
+    },
+    "6284": {
+      "moyenne": -1234.64,
+      "mediane": -463.08,
+      "nb_communes": 2,
+      "moyenne_par_hab": -2.0767238144529987
+    },
+    "28041412": {
+      "moyenne": 1835.0,
+      "mediane": 1835.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 2.77190332326284
+    },
+    "28138": {
+      "moyenne": 8189.23,
+      "mediane": 8189.23,
+      "nb_communes": 1,
+      "moyenne_par_hab": 12.370438066465256
+    },
+    "6411": {
+      "moyenne": -282173.77555555553,
+      "mediane": -179103.43,
+      "nb_communes": 9,
+      "moyenne_par_hab": -295.2310289127673
+    },
+    "1322": {
+      "moyenne": 19811.4,
+      "mediane": 3580.0,
+      "nb_communes": 5,
+      "moyenne_par_hab": 30.956405377416836
+    },
+    "6761": {
+      "moyenne": -4964.34,
+      "mediane": -2981.48,
+      "nb_communes": 2,
+      "moyenne_par_hab": -3.627565792172723
+    },
+    "2805": {
+      "moyenne": 1200.0,
+      "mediane": 1200.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 2.25140712945591
+    },
+    "138": {
+      "moyenne": 17428.0,
+      "mediane": 17428.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 10.831572405220633
+    },
+    "615232": {
+      "moyenne": -2285.075714285714,
+      "mediane": -1155.0,
+      "nb_communes": 7,
+      "moyenne_par_hab": -2.0875573632053657
+    },
+    "60622": {
+      "moyenne": -10855.503,
+      "mediane": -5137.26,
+      "nb_communes": 10,
+      "moyenne_par_hab": -11.755674151915985
+    },
+    "65561": {
+      "moyenne": -11553.480000000001,
+      "mediane": -11228.71,
+      "nb_communes": 3,
+      "moyenne_par_hab": -12.3330340135363
+    },
+    "756": {
+      "moyenne": 200.0,
+      "mediane": 200.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.37523452157598497
+    },
+    "7488": {
+      "moyenne": 32014.893333333337,
+      "mediane": 2857.49,
+      "nb_communes": 3,
+      "moyenne_par_hab": 35.526189525760294
+    },
+    "1328": {
+      "moyenne": 8279.217499999999,
+      "mediane": 12500.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": 8.624891647439842
+    },
+    "7472": {
+      "moyenne": 4375.0,
+      "mediane": 5000.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 4.561731465584099
+    },
+    "13461": {
+      "moyenne": 37064.25,
+      "mediane": 66467.5,
+      "nb_communes": 2,
+      "moyenne_par_hab": 65.23232659509938
+    },
+    "73212": {
+      "moyenne": 18658.925,
+      "mediane": 36320.08,
+      "nb_communes": 2,
+      "moyenne_par_hab": 28.368078963627195
+    },
+    "1068": {
+      "moyenne": 355964.89999999997,
+      "mediane": 114242.57,
+      "nb_communes": 9,
+      "moyenne_par_hab": 376.5250876852088
+    },
+    "60611": {
+      "moyenne": -8139.963000000001,
+      "mediane": -2316.5,
+      "nb_communes": 10,
+      "moyenne_par_hab": -8.152847202285702
+    },
+    "6455": {
+      "moyenne": -13449.51,
+      "mediane": -13449.51,
+      "nb_communes": 1,
+      "moyenne_par_hab": -11.31161480235492
+    },
+    "2156": {
+      "moyenne": -6266.816666666667,
+      "mediane": -8003.94,
+      "nb_communes": 3,
+      "moyenne_par_hab": -4.878523731784957
+    },
+    "6288": {
+      "moyenne": -18832.166000000005,
+      "mediane": -4733.68,
+      "nb_communes": 5,
+      "moyenne_par_hab": -22.343545740553864
+    },
+    "73154": {
+      "moyenne": 5613.0,
+      "mediane": 5613.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 6.094462540716612
+    },
+    "60633": {
+      "moyenne": -3909.6674999999996,
+      "mediane": -1974.04,
+      "nb_communes": 8,
+      "moyenne_par_hab": -4.1607219706309415
+    },
+    "781": {
+      "moyenne": 17029.335,
+      "mediane": 32927.67,
+      "nb_communes": 2,
+      "moyenne_par_hab": 31.240456782148257
+    },
+    "70846": {
+      "moyenne": 9737.51,
+      "mediane": 15075.02,
+      "nb_communes": 2,
+      "moyenne_par_hab": 12.577703055721486
+    },
+    "6132": {
+      "moyenne": -1083.02,
+      "mediane": -1083.02,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.9108662741799831
+    },
+    "20422": {
+      "moyenne": -61186.87,
+      "mediane": -61186.87,
+      "nb_communes": 1,
+      "moyenne_par_hab": -46.00516541353384
+    },
+    "7035": {
+      "moyenne": 2215.3500000000004,
+      "mediane": 4139.18,
+      "nb_communes": 2,
+      "moyenne_par_hab": 2.410519906710877
+    },
+    "192": {
+      "moyenne": -6814.358,
+      "mediane": -2079.8,
+      "nb_communes": 5,
+      "moyenne_par_hab": -12.105217250329062
+    },
+    "21531": {
+      "moyenne": -6029.35,
+      "mediane": -6029.35,
+      "nb_communes": 1,
+      "moyenne_par_hab": -5.94024630541872
+    },
+    "637": {
+      "moyenne": -6905.073333333334,
+      "mediane": -5650.09,
+      "nb_communes": 3,
+      "moyenne_par_hab": -7.683290923889751
+    },
+    "615221": {
+      "moyenne": -7811.522,
+      "mediane": -4352.95,
+      "nb_communes": 10,
+      "moyenne_par_hab": -7.308762605724118
+    },
+    "748374": {
+      "moyenne": 10662.5,
+      "mediane": 11913.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 10.635638438300264
+    },
+    "731732": {
+      "moyenne": 62764.41,
+      "mediane": 62764.41,
+      "nb_communes": 1,
+      "moyenne_par_hab": 70.36368834080717
+    },
+    "13918": {
+      "moyenne": -2166.0,
+      "mediane": -2166.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.063789868667917
+    },
+    "65138": {
+      "moyenne": -1581.32,
+      "mediane": -1581.32,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.8825238095238095
+    },
+    "28156": {
+      "moyenne": 1030.82,
+      "mediane": 1030.82,
+      "nb_communes": 1,
+      "moyenne_par_hab": 1.5571299093655588
+    },
+    "6541": {
+      "moyenne": -2939.3799999999997,
+      "mediane": -3543.39,
+      "nb_communes": 3,
+      "moyenne_par_hab": -2.7051881735545833
+    },
+    "6283": {
+      "moyenne": -14408.623333333331,
+      "mediane": -13636.8,
+      "nb_communes": 3,
+      "moyenne_par_hab": -12.194596195910165
+    },
+    "618": {
+      "moyenne": -3395.836666666666,
+      "mediane": -1886.08,
+      "nb_communes": 9,
+      "moyenne_par_hab": -3.8485319838547247
+    },
+    "7063": {
+      "moyenne": 139793.9,
+      "mediane": 139793.9,
+      "nb_communes": 1,
+      "moyenne_par_hab": 151.78490770901195
+    },
+    "752": {
+      "moyenne": 75857.305,
+      "mediane": 52338.01,
+      "nb_communes": 10,
+      "moyenne_par_hab": 77.00709489507274
+    },
+    "614": {
+      "moyenne": -34142.56,
+      "mediane": -34142.56,
+      "nb_communes": 1,
+      "moyenne_par_hab": -37.07118349619978
+    },
+    "28182": {
+      "moyenne": 3419.0,
+      "mediane": 3419.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 5.164652567975831
+    },
+    "21312": {
+      "moyenne": -47650.45,
+      "mediane": -47650.45,
+      "nb_communes": 1,
+      "moyenne_par_hab": -40.07607232968881
+    },
+    "2116": {
+      "moyenne": -14927.75,
+      "mediane": -1360.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": -27.758428606247485
+    },
+    "73211": {
+      "moyenne": 161395.71,
+      "mediane": 74643.0,
+      "nb_communes": 6,
+      "moyenne_par_hab": 156.86113684486463
+    },
+    "657348": {
+      "moyenne": -2558.08,
+      "mediane": -2558.08,
+      "nb_communes": 1,
+      "moyenne_par_hab": -2.236083916083916
+    },
+    "6618": {
+      "moyenne": -1251.0866666666666,
+      "mediane": -858.08,
+      "nb_communes": 3,
+      "moyenne_par_hab": -0.9652414229182175
+    },
+    "2182": {
+      "moyenne": -25370.0,
+      "mediane": -25370.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -27.54614549402823
+    },
+    "6216": {
+      "moyenne": -514.125,
+      "mediane": -26.25,
+      "nb_communes": 2,
+      "moyenne_par_hab": -0.9555874765478424
+    },
+    "6261": {
+      "moyenne": -566.74,
+      "mediane": -566.74,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.4766526492851135
+    },
+    "28188": {
+      "moyenne": 4324.2,
+      "mediane": 4324.2,
+      "nb_communes": 1,
+      "moyenne_par_hab": 6.5320241691842895
+    },
+    "6470": {
+      "moyenne": -5281.602222222222,
+      "mediane": -1184.83,
+      "nb_communes": 9,
+      "moyenne_par_hab": -6.806661365817476
+    },
+    "657363": {
+      "moyenne": -6000.0,
+      "mediane": -2000.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": -4.618094217008181
+    },
+    "6459": {
+      "moyenne": 1525.6666666666667,
+      "mediane": 826.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": 1.1885602108648459
+    },
+    "73123": {
+      "moyenne": 101231.42666666668,
+      "mediane": 21387.28,
+      "nb_communes": 3,
+      "moyenne_par_hab": 113.44848284103195
+    },
+    "635": {
+      "moyenne": -22704.34,
+      "mediane": -8032.96,
+      "nb_communes": 9,
+      "moyenne_par_hab": -26.09978422967625
+    },
+    "28157": {
+      "moyenne": 423.0,
+      "mediane": 423.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.6389728096676737
+    },
+    "2131": {
+      "moyenne": -254688.08571428573,
+      "mediane": -89552.81,
+      "nb_communes": 7,
+      "moyenne_par_hab": -358.8699820188766
+    },
+    "63512": {
+      "moyenne": -6857.0,
+      "mediane": -6857.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -5.767031118587048
+    },
+    "21838": {
+      "moyenne": -382.78,
+      "mediane": -382.78,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.3219343986543313
+    },
+    "65733": {
+      "moyenne": -715.0,
+      "mediane": -100.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": -0.5492610837438424
+    },
+    "65133": {
+      "moyenne": -272.0,
+      "mediane": -272.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.23776223776223776
+    },
+    "70878": {
+      "moyenne": 6501.676666666667,
+      "mediane": 2703.51,
+      "nb_communes": 9,
+      "moyenne_par_hab": 8.096520176845736
+    },
+    "62876": {
+      "moyenne": -10352.676666666666,
+      "mediane": -4010.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": -11.140066376769736
+    },
+    "748312": {
+      "moyenne": 18243.0,
+      "mediane": 18243.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 19.807817589576548
+    },
+    "74111": {
+      "moyenne": 233305.5,
+      "mediane": 108290.0,
+      "nb_communes": 10,
+      "moyenne_par_hab": 248.91581510555164
+    },
+    "1326": {
+      "moyenne": 32457.9,
+      "mediane": 32457.9,
+      "nb_communes": 1,
+      "moyenne_par_hab": 20.172715972653823
+    },
+    "6161": {
+      "moyenne": -14312.984444444444,
+      "mediane": -7807.02,
+      "nb_communes": 9,
+      "moyenne_par_hab": -16.459782882513913
+    },
+    "64118": {
+      "moyenne": -27642.51,
+      "mediane": -27642.51,
+      "nb_communes": 1,
+      "moyenne_par_hab": -23.24853658536585
+    },
+    "28131": {
+      "moyenne": 12936.2,
+      "mediane": 12936.2,
+      "nb_communes": 1,
+      "moyenne_par_hab": 19.54108761329305
+    },
+    "74711": {
+      "moyenne": 20721.0,
+      "mediane": 20721.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 12.878185208203853
+    },
+    "7761": {
+      "moyenne": 14666.823333333334,
+      "mediane": 12256.63,
+      "nb_communes": 3,
+      "moyenne_par_hab": 22.593739278663588
+    },
+    "6156": {
+      "moyenne": -19833.814,
+      "mediane": -10141.26,
+      "nb_communes": 10,
+      "moyenne_par_hab": -21.01564076631803
+    },
+    "21848": {
+      "moyenne": -2042.41,
+      "mediane": -2042.41,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.7177544154751894
+    },
+    "6281": {
+      "moyenne": -6590.891249999999,
+      "mediane": -2073.27,
+      "nb_communes": 8,
+      "moyenne_par_hab": -7.067591863507484
+    },
+    "70311": {
+      "moyenne": 925.19125,
+      "mediane": 650.0,
+      "nb_communes": 8,
+      "moyenne_par_hab": 0.729183824526831
+    },
+    "2051": {
+      "moyenne": -8835.433333333332,
+      "mediane": -4000.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": -9.207703894278987
+    },
+    "202": {
+      "moyenne": -6705.88,
+      "mediane": -2035.76,
+      "nb_communes": 2,
+      "moyenne_par_hab": -5.444833552356177
+    },
+    "739118": {
+      "moyenne": -1428.0,
+      "mediane": -1428.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.600896860986547
+    },
+    "65311": {
+      "moyenne": -42362.488,
+      "mediane": -40335.84,
+      "nb_communes": 10,
+      "moyenne_par_hab": -43.57556150180478
+    },
+    "60612": {
+      "moyenne": -57220.357,
+      "mediane": -32214.24,
+      "nb_communes": 10,
+      "moyenne_par_hab": -57.843948179246944
+    },
+    "65743": {
+      "moyenne": -30000.0,
+      "mediane": -30000.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -32.57328990228013
+    },
+    "75821": {
+      "moyenne": 313000.0,
+      "mediane": 313000.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 587.2420262664165
+    },
+    "21828": {
+      "moyenne": 16256.63,
+      "mediane": 16256.63,
+      "nb_communes": 1,
+      "moyenne_par_hab": 13.672523128679561
+    },
+    "657341": {
+      "moyenne": -78714.16,
+      "mediane": -78714.16,
+      "nb_communes": 1,
+      "moyenne_par_hab": -118.90356495468278
+    },
+    "13258": {
+      "moyenne": 9458.46,
+      "mediane": 9458.46,
+      "nb_communes": 1,
+      "moyenne_par_hab": 7.111624060150375
+    },
+    "6247": {
+      "moyenne": -1240.0,
+      "mediane": -1240.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.042893187552565
+    },
+    "74718": {
+      "moyenne": 7685.756249999999,
+      "mediane": 409.59,
+      "nb_communes": 8,
+      "moyenne_par_hab": 9.733915751048409
+    },
+    "7067": {
+      "moyenne": 39202.87222222222,
+      "mediane": 28429.38,
+      "nb_communes": 9,
+      "moyenne_par_hab": 35.60668613913902
+    },
+    "65188": {
+      "moyenne": -429.36,
+      "mediane": -429.36,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.48134529147982064
+    },
+    "1348": {
+      "moyenne": 404580.0,
+      "mediane": 404580.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 759.0619136960601
+    },
+    "60628": {
+      "moyenne": -4345.42,
+      "mediane": -2434.92,
+      "nb_communes": 5,
+      "moyenne_par_hab": -4.640434539794034
+    },
+    "77681": {
+      "moyenne": 265.85,
+      "mediane": 265.85,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.1998872180451128
+    },
+    "7022": {
+      "moyenne": 12812.713333333333,
+      "mediane": 1021.36,
+      "nb_communes": 3,
+      "moyenne_par_hab": 13.861773237931459
+    },
+    "60636": {
+      "moyenne": -2772.2,
+      "mediane": -671.33,
+      "nb_communes": 9,
+      "moyenne_par_hab": -3.035675166468847
+    },
+    "61558": {
+      "moyenne": -5470.561000000001,
+      "mediane": -914.83,
+      "nb_communes": 10,
+      "moyenne_par_hab": -6.051281695612682
+    },
+    "73118": {
+      "moyenne": 1234.142857142857,
+      "mediane": 666.0,
+      "nb_communes": 7,
+      "moyenne_par_hab": 1.4574975692195835
+    },
+    "6182": {
+      "moyenne": -479.8,
+      "mediane": -479.8,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.4035323801513877
+    },
+    "281538": {
+      "moyenne": 155.0,
+      "mediane": 155.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.23413897280966767
+    },
+    "2804181": {
+      "moyenne": 445.0,
+      "mediane": 445.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.5297619047619048
+    },
+    "60623": {
+      "moyenne": -14220.823999999999,
+      "mediane": -2372.69,
+      "nb_communes": 10,
+      "moyenne_par_hab": -13.833600987876281
+    },
+    "6751": {
+      "moyenne": -60243.03200000001,
+      "mediane": -37064.04,
+      "nb_communes": 5,
+      "moyenne_par_hab": -56.4732639371731
+    },
+    "681": {
+      "moyenne": -30447.488571428574,
+      "mediane": -27633.07,
+      "nb_communes": 7,
+      "moyenne_par_hab": -40.438094252069334
+    },
+    "2181": {
+      "moyenne": -5396.7733333333335,
+      "mediane": -3405.84,
+      "nb_communes": 3,
+      "moyenne_par_hab": -5.844672133628481
+    },
+    "280422": {
+      "moyenne": 2182.925,
+      "mediane": 4100.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 1.3740268905638866
+    },
+    "673": {
+      "moyenne": -2533.44,
+      "mediane": -415.94,
+      "nb_communes": 6,
+      "moyenne_par_hab": -2.219605750903242
+    },
+    "7318": {
+      "moyenne": 199.0,
+      "mediane": 199.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.12367930391547545
+    },
+    "165": {
+      "moyenne": 200.6525000000001,
+      "mediane": 43.55000000000007,
+      "nb_communes": 8,
+      "moyenne_par_hab": 0.4640964390410089
+    },
+    "20421": {
+      "moyenne": -3000.0,
+      "mediane": -3000.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.8645121193287757
+    },
+    "648": {
+      "moyenne": -8595.48,
+      "mediane": -1736.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": -13.031003135460528
+    },
+    "70388": {
+      "moyenne": 8920.94,
+      "mediane": 14729.18,
+      "nb_communes": 2,
+      "moyenne_par_hab": 7.404856483634451
+    },
+    "65741": {
+      "moyenne": -658.47,
+      "mediane": -596.94,
+      "nb_communes": 2,
+      "moyenne_par_hab": -1.1262831660271053
+    },
+    "62878": {
+      "moyenne": -10561.72,
+      "mediane": -9505.86,
+      "nb_communes": 3,
+      "moyenne_par_hab": -8.479509096947657
+    },
+    "70323": {
+      "moyenne": 339.0,
+      "mediane": 339.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.2851135407905803
+    },
+    "653172": {
+      "moyenne": -41.730000000000004,
+      "mediane": -32.56,
+      "nb_communes": 2,
+      "moyenne_par_hab": -0.032827516646958016
+    },
+    "70841": {
+      "moyenne": 7052.82,
+      "mediane": 8905.64,
+      "nb_communes": 2,
+      "moyenne_par_hab": 8.226033742893819
+    },
+    "6417": {
+      "moyenne": -5614.85,
+      "mediane": -5614.85,
+      "nb_communes": 1,
+      "moyenne_par_hab": -5.531871921182266
+    },
+    "73132": {
+      "moyenne": 37616.5,
+      "mediane": 55260.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": 33.9202617340042
+    },
+    "74834": {
+      "moyenne": 15151.0,
+      "mediane": 15151.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 16.450597176981542
+    },
+    "7621": {
+      "moyenne": 2.58,
+      "mediane": 2.58,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.0019398496240601503
+    },
+    "6184": {
+      "moyenne": -96.0,
+      "mediane": -96.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.08074011774600505
+    },
+    "64111": {
+      "moyenne": -174961.11,
+      "mediane": -174961.11,
+      "nb_communes": 1,
+      "moyenne_par_hab": -147.14979814970562
+    },
+    "60631": {
+      "moyenne": -17674.189,
+      "mediane": -2762.37,
+      "nb_communes": 10,
+      "moyenne_par_hab": -18.39776538702309
+    },
+    "275": {
+      "moyenne": 99.44,
+      "mediane": 99.44,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.11147982062780269
+    },
+    "2804182": {
+      "moyenne": 4806.4175,
+      "mediane": 6438.67,
+      "nb_communes": 4,
+      "moyenne_par_hab": 5.485528163116922
+    },
+    "6064": {
+      "moyenne": -2536.334,
+      "mediane": -1782.62,
+      "nb_communes": 10,
+      "moyenne_par_hab": -2.4849555842611912
+    },
+    "6168": {
+      "moyenne": -7971.922499999999,
+      "mediane": -3088.87,
+      "nb_communes": 4,
+      "moyenne_par_hab": -10.17401113034786
+    },
+    "65312": {
+      "moyenne": -10013.43,
+      "mediane": -10013.43,
+      "nb_communes": 1,
+      "moyenne_par_hab": -10.872345276872965
+    },
+    "2188": {
+      "moyenne": -19859.93571428571,
+      "mediane": -2120.8,
+      "nb_communes": 7,
+      "moyenne_par_hab": -25.077204996188385
+    },
+    "2802": {
+      "moyenne": 7735.8,
+      "mediane": 7735.8,
+      "nb_communes": 1,
+      "moyenne_par_hab": 14.513696060037525
+    },
+    "625": {
+      "moyenne": -4262.681666666666,
+      "mediane": -298.24,
+      "nb_communes": 6,
+      "moyenne_par_hab": -3.411346109925882
+    },
+    "1318": {
+      "moyenne": 67430.0,
+      "mediane": 67430.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 126.51031894934334
+    },
+    "2138": {
+      "moyenne": -46039.177500000005,
+      "mediane": -32311.72,
+      "nb_communes": 4,
+      "moyenne_par_hab": -51.777349245830926
+    },
+    "74832": {
+      "moyenne": 1407.0,
+      "mediane": 2626.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 1.6651582131223825
+    },
+    "6218": {
+      "moyenne": -41134.418,
+      "mediane": -11726.75,
+      "nb_communes": 5,
+      "moyenne_par_hab": -62.18087397139741
+    },
+    "70848": {
+      "moyenne": 6067.5599999999995,
+      "mediane": 7391.97,
+      "nb_communes": 2,
+      "moyenne_par_hab": 6.671729397028965
+    },
+    "622": {
+      "moyenne": -4752.471428571429,
+      "mediane": -2590.0,
+      "nb_communes": 7,
+      "moyenne_par_hab": -4.918336953546928
+    },
+    "28151": {
+      "moyenne": 500.0,
+      "mediane": 500.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.7552870090634441
+    },
+    "7032": {
+      "moyenne": 41143.12714285714,
+      "mediane": 2065.16,
+      "nb_communes": 7,
+      "moyenne_par_hab": 45.06304886828335
+    },
+    "741127": {
+      "moyenne": 20497.333333333332,
+      "mediane": 16565.0,
+      "nb_communes": 9,
+      "moyenne_par_hab": 23.093794723175645
+    },
+    "2152": {
+      "moyenne": -19111.629999999997,
+      "mediane": -2710.34,
+      "nb_communes": 5,
+      "moyenne_par_hab": -15.630301229772646
+    },
+    "60613": {
+      "moyenne": -69954.23,
+      "mediane": -69954.23,
+      "nb_communes": 1,
+      "moyenne_par_hab": -43.47683654443754
+    },
+    "6474": {
+      "moyenne": -2094.0,
+      "mediane": -2094.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.761143818334735
+    },
+    "6262": {
+      "moyenne": -5006.99,
+      "mediane": -5006.99,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.211093355761144
+    },
+    "675": {
+      "moyenne": -26606.63,
+      "mediane": -26606.63,
+      "nb_communes": 1,
+      "moyenne_par_hab": -22.377317073170733
+    },
+    "65314": {
+      "moyenne": -7694.8725,
+      "mediane": -6612.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": -6.64408008264474
+    },
+    "21351": {
+      "moyenne": -1250.83,
+      "mediane": -1250.83,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.0520016820857863
+    },
+    "2121": {
+      "moyenne": -5040.0,
+      "mediane": -5040.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.238856181665265
+    },
+    "2316": {
+      "moyenne": -16412.18,
+      "mediane": -16412.18,
+      "nb_communes": 1,
+      "moyenne_par_hab": -13.803347350714887
+    },
+    "65738": {
+      "moyenne": -1330.0,
+      "mediane": -60.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": -1.0036673852463325
+    },
+    "6558": {
+      "moyenne": -4514.931999999999,
+      "mediane": -681.42,
+      "nb_communes": 5,
+      "moyenne_par_hab": -5.359513287445418
+    },
+    "6454": {
+      "moyenne": -86.0,
+      "mediane": -86.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.07232968881412952
+    },
+    "741121": {
+      "moyenne": 136470.5,
+      "mediane": 68963.0,
+      "nb_communes": 10,
+      "moyenne_par_hab": 154.77931931041104
+    },
+    "28041534": {
+      "moyenne": 13333.0,
+      "mediane": 13333.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 14.476655808903367
+    },
+    "13462": {
+      "moyenne": 105963.0,
+      "mediane": 105963.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 198.8048780487805
+    },
+    "61524": {
+      "moyenne": -8136.11,
+      "mediane": -8136.11,
+      "nb_communes": 1,
+      "moyenne_par_hab": -8.833995656894679
+    },
+    "60632": {
+      "moyenne": -20238.94,
+      "mediane": -8228.24,
+      "nb_communes": 10,
+      "moyenne_par_hab": -21.136574537513262
+    },
+    "2184": {
+      "moyenne": -8656.962,
+      "mediane": -2642.4,
+      "nb_communes": 5,
+      "moyenne_par_hab": -8.041847726008509
+    },
+    "28184": {
+      "moyenne": 2601.42,
+      "mediane": 2601.42,
+      "nb_communes": 1,
+      "moyenne_par_hab": 3.92963746223565
+    },
+    "708721": {
+      "moyenne": 3164.33,
+      "mediane": 3164.33,
+      "nb_communes": 1,
+      "moyenne_par_hab": 2.3791954887218045
+    },
+    "1323": {
+      "moyenne": 125521.59571428571,
+      "mediane": 48226.0,
+      "nb_communes": 7,
+      "moyenne_par_hab": 129.3343965192443
+    },
+    "7392221": {
+      "moyenne": -15611.5,
+      "mediane": -12522.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": -12.296220682066815
+    },
+    "64113": {
+      "moyenne": -2362.92,
+      "mediane": -2362.92,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.9873170731707317
+    },
+    "28041481": {
+      "moyenne": 42.0,
+      "mediane": 42.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.05
+    },
+    "742": {
+      "moyenne": 1621.4444444444443,
+      "mediane": 293.0,
+      "nb_communes": 9,
+      "moyenne_par_hab": 2.220086934957245
+    },
+    "212": {
+      "moyenne": -736017.24,
+      "mediane": -12468.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": -796.9840958083458
+    },
+    "74836": {
+      "moyenne": 19753.046,
+      "mediane": 11088.85,
+      "nb_communes": 5,
+      "moyenne_par_hab": 20.97745339177853
+    },
+    "6065": {
+      "moyenne": -1722.464,
+      "mediane": -1431.42,
+      "nb_communes": 5,
+      "moyenne_par_hab": -1.6495435625764483
+    },
+    "732221": {
+      "moyenne": 15775.787142857142,
+      "mediane": 13517.0,
+      "nb_communes": 7,
+      "moyenne_par_hab": 17.185347533211488
+    },
+    "6338": {
+      "moyenne": -556.0,
+      "mediane": -556.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.46761984861227923
+    },
+    "6188": {
+      "moyenne": -278.4,
+      "mediane": -278.4,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.23414634146341462
+    },
+    "7088": {
+      "moyenne": 1049.975,
+      "mediane": 1088.0,
+      "nb_communes": 4,
+      "moyenne_par_hab": 1.0691374595070162
+    },
+    "6238": {
+      "moyenne": -1027.99,
+      "mediane": -1027.99,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.8645836837678722
+    },
+    "739221": {
+      "moyenne": -98737.66666666667,
+      "mediane": -53385.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": -105.82891866880738
+    },
+    "70688": {
+      "moyenne": 20727.03,
+      "mediane": 2560.67,
+      "nb_communes": 3,
+      "moyenne_par_hab": 22.24100365459107
+    },
+    "4581": {
+      "moyenne": -17974.8,
+      "mediane": -17974.8,
+      "nb_communes": 1,
+      "moyenne_par_hab": -21.39857142857143
+    },
+    "215731": {
+      "moyenne": -10900.0,
+      "mediane": -10900.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -9.167367535744322
+    },
+    "2132": {
+      "moyenne": -19123.376666666667,
+      "mediane": -12150.36,
+      "nb_communes": 3,
+      "moyenne_par_hab": -15.609463701404904
+    },
+    "6234": {
+      "moyenne": -5549.38,
+      "mediane": -5549.38,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.6672666105971405
+    },
+    "6232": {
+      "moyenne": -4593.7,
+      "mediane": -4593.7,
+      "nb_communes": 1,
+      "moyenne_par_hab": -3.86349873843566
+    },
+    "62268": {
+      "moyenne": -1200.0,
+      "mediane": -1200.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.0092514718250631
+    },
+    "7062": {
+      "moyenne": 610.0,
+      "mediane": 610.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.6623235613463626
+    },
+    "6068": {
+      "moyenne": -4620.058750000001,
+      "mediane": -299.66,
+      "nb_communes": 8,
+      "moyenne_par_hab": -5.926956753126237
+    },
+    "60621": {
+      "moyenne": -18068.44,
+      "mediane": -8469.88,
+      "nb_communes": 8,
+      "moyenne_par_hab": -19.742061191529345
+    },
+    "7036": {
+      "moyenne": 21975.75,
+      "mediane": 23940.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 24.28328902586874
+    },
+    "28041512": {
+      "moyenne": 16578.28,
+      "mediane": 16578.28,
+      "nb_communes": 1,
+      "moyenne_par_hab": 10.30346799254195
+    },
+    "73114": {
+      "moyenne": 10190.5,
+      "mediane": 19228.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 9.090155677655677
+    },
+    "615228": {
+      "moyenne": -10012.645714285713,
+      "mediane": -10140.45,
+      "nb_communes": 7,
+      "moyenne_par_hab": -11.217014298039217
+    },
+    "203": {
+      "moyenne": -19226.194,
+      "mediane": -1854.0,
+      "nb_communes": 5,
+      "moyenne_par_hab": -31.574537884747407
+    },
+    "6553": {
+      "moyenne": -23656.205,
+      "mediane": -14272.2,
+      "nb_communes": 4,
+      "moyenne_par_hab": -21.777136569872958
+    },
+    "7391111": {
+      "moyenne": -626.3333333333334,
+      "mediane": -728.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": -0.5764290230155392
+    },
+    "7473": {
+      "moyenne": 5239.02,
+      "mediane": 6099.1,
+      "nb_communes": 4,
+      "moyenne_par_hab": 4.25370871677432
+    },
+    "21568": {
+      "moyenne": -346.67,
+      "mediane": -346.67,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.29156433978132884
+    },
+    "231": {
+      "moyenne": -220502.76499999998,
+      "mediane": -242394.99,
+      "nb_communes": 6,
+      "moyenne_par_hab": -233.6313447688001
+    },
+    "65132": {
+      "moyenne": -1250.0,
+      "mediane": -1250.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -2.345215759849906
+    },
+    "773": {
+      "moyenne": 185.706,
+      "mediane": 158.97,
+      "nb_communes": 5,
+      "moyenne_par_hab": 0.24161981301666552
+    },
+    "65748": {
+      "moyenne": -147297.858,
+      "mediane": -11165.0,
+      "nb_communes": 10,
+      "moyenne_par_hab": -158.7628213806659
+    },
+    "708722": {
+      "moyenne": 113119.47,
+      "mediane": 113119.47,
+      "nb_communes": 1,
+      "moyenne_par_hab": 122.82244299674267
+    },
+    "735": {
+      "moyenne": 8486.0,
+      "mediane": 8486.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 10.102380952380953
+    },
+    "7395": {
+      "moyenne": -70.0,
+      "mediane": -70.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.08333333333333333
+    },
+    "75813": {
+      "moyenne": 107055.90000000001,
+      "mediane": 304.47,
+      "nb_communes": 6,
+      "moyenne_par_hab": 116.35889915537506
+    },
+    "27638": {
+      "moyenne": 6955.3099999999995,
+      "mediane": 28910.62,
+      "nb_communes": 2,
+      "moyenne_par_hab": 6.766662013339538
+    },
+    "7066": {
+      "moyenne": 29976.326,
+      "mediane": 25362.44,
+      "nb_communes": 5,
+      "moyenne_par_hab": 23.353105301724206
+    },
+    "28152": {
+      "moyenne": 408.0,
+      "mediane": 408.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.6163141993957704
+    },
+    "6688": {
+      "moyenne": -700.0,
+      "mediane": -700.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.435052827843381
+    },
+    "739211": {
+      "moyenne": -36311.78333333333,
+      "mediane": -39858.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": -35.19564947773
+    },
+    "74833": {
+      "moyenne": 56260.2,
+      "mediane": 8651.0,
+      "nb_communes": 10,
+      "moyenne_par_hab": 38.33447685610673
+    },
+    "21538": {
+      "moyenne": -23540.29,
+      "mediane": -6588.0,
+      "nb_communes": 9,
+      "moyenne_par_hab": -21.73344068764105
+    },
+    "6282": {
+      "moyenne": -5393.537499999999,
+      "mediane": -755.13,
+      "nb_communes": 4,
+      "moyenne_par_hab": -5.730258902895296
+    },
+    "6227": {
+      "moyenne": -1552.49,
+      "mediane": -1552.49,
+      "nb_communes": 1,
+      "moyenne_par_hab": -1.3057106812447434
+    },
+    "1321": {
+      "moyenne": 61535.83666666667,
+      "mediane": 60000.0,
+      "nb_communes": 3,
+      "moyenne_par_hab": 76.03491089870445
+    },
+    "617": {
+      "moyenne": -10965.926,
+      "mediane": -2024.09,
+      "nb_communes": 5,
+      "moyenne_par_hab": -12.809469468994578
+    },
+    "6413": {
+      "moyenne": -103558.71571428573,
+      "mediane": -32303.29,
+      "nb_communes": 7,
+      "moyenne_par_hab": -102.35208316074365
+    },
+    "28132": {
+      "moyenne": 5853.0,
+      "mediane": 5853.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": 10.981238273921202
+    },
+    "6584": {
+      "moyenne": -90.0,
+      "mediane": -90.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.13595166163141995
+    },
+    "73175": {
+      "moyenne": 238207.85,
+      "mediane": 238207.85,
+      "nb_communes": 1,
+      "moyenne_par_hab": 258.64044516829534
+    },
+    "204182": {
+      "moyenne": -33376.46,
+      "mediane": -33376.46,
+      "nb_communes": 1,
+      "moyenne_par_hab": -20.743604723430703
+    },
+    "6451": {
+      "moyenne": -34039.0,
+      "mediane": -34039.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -28.628259041211102
+    },
+    "61358": {
+      "moyenne": -407.35,
+      "mediane": -407.35,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.34259882253994955
+    },
+    "75888": {
+      "moyenne": 52767.590000000004,
+      "mediane": 3726.78,
+      "nb_communes": 10,
+      "moyenne_par_hab": 54.77144927774532
+    },
+    "65315": {
+      "moyenne": -667.9283333333334,
+      "mediane": -407.52,
+      "nb_communes": 6,
+      "moyenne_par_hab": -0.6929503993934257
+    },
+    "7018": {
+      "moyenne": 4638.485,
+      "mediane": 9066.97,
+      "nb_communes": 2,
+      "moyenne_par_hab": 3.926861855280352
+    },
+    "66111": {
+      "moyenne": -36517.862,
+      "mediane": -12714.65,
+      "nb_communes": 10,
+      "moyenne_par_hab": -37.624807473034636
+    },
+    "70876": {
+      "moyenne": 103049.68,
+      "mediane": 103049.68,
+      "nb_communes": 1,
+      "moyenne_par_hab": 111.88890336590661
+    },
+    "7688": {
+      "moyenne": 4.65,
+      "mediane": 4.65,
+      "nb_communes": 1,
+      "moyenne_par_hab": 0.005535714285714286
+    },
+    "7025": {
+      "moyenne": 1079.0,
+      "mediane": 1998.0,
+      "nb_communes": 2,
+      "moyenne_par_hab": 0.6881659671914866
+    },
+    "615231": {
+      "moyenne": -41661.643333333326,
+      "mediane": -11064.25,
+      "nb_communes": 9,
+      "moyenne_par_hab": -43.55169331366063
+    },
+    "65134": {
+      "moyenne": -90.0,
+      "mediane": -90.0,
+      "nb_communes": 1,
+      "moyenne_par_hab": -0.10714285714285714
+    },
+    "61521": {
+      "moyenne": -3861.09625,
+      "mediane": -2844.0,
+      "nb_communes": 8,
+      "moyenne_par_hab": -3.8673647574128767
+    },
+    "6336": {
+      "moyenne": -4862.62,
+      "mediane": -4862.62,
+      "nb_communes": 1,
+      "moyenne_par_hab": -4.089671993271657
+    },
+    "204181": {
+      "moyenne": -36489.97,
+      "mediane": -36489.97,
+      "nb_communes": 1,
+      "moyenne_par_hab": -22.678663766314482
+    },
+    "65313": {
+      "moyenne": -2198.4100000000003,
+      "mediane": -1711.2,
+      "nb_communes": 10,
+      "moyenne_par_hab": -2.248259590720542
+    },
+    "6419": {
+      "moyenne": 20522.357500000002,
+      "mediane": 15000.0,
+      "nb_communes": 8,
+      "moyenne_par_hab": 23.041346156613706
+    },
+    "73223": {
+      "moyenne": 30200.95,
+      "mediane": 29093.99,
+      "nb_communes": 7,
+      "moyenne_par_hab": 27.92816817312496
+    }
+  }
+}

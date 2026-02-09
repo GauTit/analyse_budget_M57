@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "commune": "Le Poizat-Lalleyriat",
+    "code_insee": "01204",
+    "exercice": "2024",
+    "population": 762,
+    "departement": "Ain",
+    "tranche_population": "3"
+  },
+  "total_count": 50,
+  "agregats": [
+    {
+      "agregat": "Autres dotations de fonctionnement",
+      "montant": 8813.86,
+      "euros_par_habitant": 11.566745406824147
+    },
+    {
+      "agregat": "Charges financières",
+      "montant": 11834.87,
+      "euros_par_habitant": 15.531325459317586
+    },
+    {
+      "agregat": "Autres impôts et taxes",
+      "montant": 166184.0,
+      "euros_par_habitant": 218.08923884514437
+    },
+    {
+      "agregat": "Achats et charges externes",
+      "montant": 407828.58,
+      "euros_par_habitant": 535.2081102362205
+    },
+    {
+      "agregat": "Concours de l'Etat",
+      "montant": 162987.86,
+      "euros_par_habitant": 213.89482939632543
+    },
+    {
+      "agregat": "Crédits de trésorerie",
+      "montant": 0.0,
+      "euros_par_habitant": 0.0
+    },
+    {
+      "agregat": "Dépenses de fonctionnement",
+      "montant": 865297.74,
+      "euros_par_habitant": 1135.561338582677
+    },
+    {
+      "agregat": "Dépenses d'équipement",
+      "montant": 198382.33,
+      "euros_par_habitant": 260.3442650918635
+    },
+    {
+      "agregat": "Encours de dette - Dépôts et cautionnements reçus",
+      "montant": 1799.51,
+      "euros_par_habitant": 2.361561679790026
+    },
+    {
+      "agregat": "Subventions aux personnes de droit privé",
+      "montant": 17150.0,
+      "euros_par_habitant": 22.506561679790025
+    },
+    {
+      "agregat": "Produit des cessions d'immobilisations",
+      "montant": 58000.0,
+      "euros_par_habitant": 76.11548556430446
+    },
+    {
+      "agregat": "Subventions d'équipement versées",
+      "montant": 0.0,
+      "euros_par_habitant": 0.0
+    },
+    {
+      "agregat": "Impôts locaux",
+      "montant": 330391.72,
+      "euros_par_habitant": 433.58493438320204
+    },
+    {
+      "agregat": "Péréquations et compensations fiscales",
+      "montant": 11381.0,
+      "euros_par_habitant": 14.935695538057743
+    },
+    {
+      "agregat": "Recettes de fonctionnement",
+      "montant": 1069227.71,
+      "euros_par_habitant": 1403.1859711286088
+    },
+    {
+      "agregat": "FCTVA",
+      "montant": 28614.58,
+      "euros_par_habitant": 37.55194225721785
+    },
+    {
+      "agregat": "Dépenses d'intervention",
+      "montant": 91605.85,
+      "euros_par_habitant": 120.21765091863517
+    },
+    {
+      "agregat": "Dotation globale de fonctionnement",
+      "montant": 142793.0,
+      "euros_par_habitant": 187.39238845144357
+    },
+    {
+      "agregat": "Fiscalité reversée",
+      "montant": 123954.72,
+      "euros_par_habitant": 162.67023622047245
+    },
+    {
+      "agregat": "Encours de dette - Dettes bancaires et assimilées",
+      "montant": 417925.85,
+      "euros_par_habitant": 548.4591207349081
+    },
+    {
+      "agregat": "Encours de dette",
+      "montant": 464725.36,
+      "euros_par_habitant": 609.8758005249343
+    },
+    {
+      "agregat": "Fonds de roulement",
+      "montant": 289286.8,
+      "euros_par_habitant": 379.64146981627295
+    },
+    {
+      "agregat": "DETR",
+      "montant": 392.0,
+      "euros_par_habitant": 0.5144356955380578
+    },
+    {
+      "agregat": "Autres dotations et subventions",
+      "montant": 33518.89,
+      "euros_par_habitant": 43.988044619422574
+    },
+    {
+      "agregat": "Dépôts au Trésor",
+      "montant": 221173.99,
+      "euros_par_habitant": 290.25458005249345
+    },
+    {
+      "agregat": "Dépenses d'investissement hors remb",
+      "montant": 211526.54,
+      "euros_par_habitant": 277.59388451443573
+    },
+    {
+      "agregat": "Subventions reçues et participations",
+      "montant": 109004.38,
+      "euros_par_habitant": 143.05036745406824
+    },
+    {
+      "agregat": "Autres recettes d'investissement",
+      "montant": 58000.0,
+      "euros_par_habitant": 76.11548556430446
+    },
+    {
+      "agregat": "Epargne brute",
+      "montant": 203929.97,
+      "euros_par_habitant": 267.6246325459318
+    },
+    {
+      "agregat": "Impôts et taxes",
+      "montant": 496575.72,
+      "euros_par_habitant": 651.6741732283464
+    },
+    {
+      "agregat": "Frais de personnel",
+      "montant": 287539.52,
+      "euros_par_habitant": 377.34845144356956
+    },
+    {
+      "agregat": "Ventes de biens et services",
+      "montant": 237880.9,
+      "euros_par_habitant": 312.1796587926509
+    },
+    {
+      "agregat": "Autres dépenses de fonctionnement",
+      "montant": 66488.9199999999,
+      "euros_par_habitant": 87.25580052493424
+    },
+    {
+      "agregat": "Autres dépenses d'investissement",
+      "montant": 13144.21,
+      "euros_par_habitant": 17.249619422572177
+    },
+    {
+      "agregat": "Autres recettes de fonctionnement",
+      "montant": 62778.85,
+      "euros_par_habitant": 82.38694225721784
+    },
+    {
+      "agregat": "Epargne de gestion",
+      "montant": 213055.92,
+      "euros_par_habitant": 279.6009448818898
+    },
+    {
+      "agregat": "Recettes d'investissement hors emprunts",
+      "montant": 120133.47,
+      "euros_par_habitant": 157.6554724409449
+    },
+    {
+      "agregat": "Dépenses totales hors remb",
+      "montant": 1076824.28,
+      "euros_par_habitant": 1413.1552230971129
+    },
+    {
+      "agregat": "Capacité ou besoin de financement",
+      "montant": 112536.9,
+      "euros_par_habitant": 147.68622047244094
+    },
+    {
+      "agregat": "Recettes totales hors emprunts",
+      "montant": 1189361.18,
+      "euros_par_habitant": 1560.8414435695538
+    },
+    {
+      "agregat": "Emprunts hors GAD",
+      "montant": 0.0,
+      "euros_par_habitant": 0.0
+    },
+    {
+      "agregat": "Remboursements d'emprunts hors GAD",
+      "montant": 126593.64,
+      "euros_par_habitant": 166.13338582677164
+    },
+    {
+      "agregat": "Annuité de la dette",
+      "montant": 138428.51,
+      "euros_par_habitant": 181.66471128608924
+    },
+    {
+      "agregat": "Dépenses totales",
+      "montant": 1203417.92,
+      "euros_par_habitant": 1579.2886089238843
+    },
+    {
+      "agregat": "Flux net de dette",
+      "montant": -126593.64,
+      "euros_par_habitant": -166.13338582677164
+    },
+    {
+      "agregat": "Dépenses d'investissement",
+      "montant": 338120.18,
+      "euros_par_habitant": 443.7272703412073
+    },
+    {
+      "agregat": "Epargne nette",
+      "montant": 77336.33,
+      "euros_par_habitant": 101.4912467191601
+    },
+    {
+      "agregat": "Variation du fonds de roulement",
+      "montant": -14056.74,
+      "euros_par_habitant": -18.447165354330707
+    },
+    {
+      "agregat": "Recettes d'investissement",
+      "montant": 120133.47,
+      "euros_par_habitant": 157.6554724409449
+    },
+    {
+      "agregat": "Recettes totales",
+      "montant": 1189361.18,
+      "euros_par_habitant": 1560.8414435695538
+    }
+  ]
+}
