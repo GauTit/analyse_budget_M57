@@ -187,7 +187,7 @@ def creer_styles():
 # ============================================
 
 def generer_graphique_repartition_produits(data, fichier_sortie):
-    """Génère un camembert de répartition des produits de fonctionnement (en % des produits CAF)"""
+    """Génère un camembert de répartition des recettes réelles de fonctionnement (en % des produits CAF)"""
     produits = data['fonctionnement']['produits']
 
     labels = []
@@ -268,7 +268,7 @@ def generer_graphique_repartition_produits(data, fichier_sortie):
         text.set_fontsize(11)
         text.set_weight('bold')
 
-    ax.set_title('Répartition des produits de fonctionnement CAF',
+    ax.set_title('Répartition des recettes réelles de fonctionnement',
                  fontsize=13, fontweight='bold', pad=15)
 
     plt.tight_layout()
@@ -279,7 +279,7 @@ def generer_graphique_repartition_produits(data, fichier_sortie):
 
 
 def generer_graphique_repartition_charges(data, fichier_sortie):
-    """Génère un camembert de répartition des charges de fonctionnement (en % des charges CAF)"""
+    """Génère un camembert de répartition des dépenses réelles de fonctionnement (en % des charges CAF)"""
     charges = data['fonctionnement']['charges']
 
     labels = []
@@ -368,7 +368,7 @@ def generer_graphique_repartition_charges(data, fichier_sortie):
         text.set_fontsize(11)
         text.set_weight('bold')
 
-    ax.set_title('Répartition des charges de fonctionnement CAF',
+    ax.set_title('Répartition des dépenses réelles de fonctionnement',
                  fontsize=13, fontweight='bold', pad=15)
 
     plt.tight_layout()
@@ -898,7 +898,10 @@ def formater_titre_poste(nom_poste):
 
 
 def generer_contenu_analyse(row, styles):
-    """Génère le contenu complet d'une analyse : section 1 personnalisée + sections 2-3 IA
+    """Génère le contenu complet d'une analyse à partir de la réponse de l'IA
+
+    L'IA génère les 3 sections en s'inspirant éventuellement des phrases d'exemple
+    fournies dans le code Python (TEXTES_PERSONNALISES).
 
     Args:
         row: Ligne du DataFrame contenant l'analyse
@@ -909,31 +912,12 @@ def generer_contenu_analyse(row, styles):
     """
     elements = []
 
-    # Récupérer le texte personnalisé pour la section 1
-    texte_personnalise = row.get('Texte_Positionnement_Personnalise', '')
-    if pd.isna(texte_personnalise):
-        texte_personnalise = ''
-
-    # Récupérer le texte généré par l'IA
+    # Récupérer le texte généré par l'IA (contient les 3 sections générées)
     texte_ia = row.get('Reponse_Attendue', '')
     if pd.isna(texte_ia):
         texte_ia = ''
 
-    # Si un texte personnalisé existe, l'afficher d'abord
-    if texte_personnalise and texte_personnalise.strip():
-        # Titre de la section 1
-        elements.append(Paragraph("1. POSITIONNEMENT ET POIDS DU POSTE", styles['SousTitreTexte']))
-        elements.append(Spacer(1, 0.2*cm))
-
-        # Contenu personnalisé
-        elements.extend(convertir_texte_en_paragraphes(texte_personnalise, styles))
-        elements.append(Spacer(1, 0.3*cm))
-
-        # Titre de la section 2
-        elements.append(Paragraph("2. ANALYSE COMPARATIVE ET DIAGNOSTIC DES ÉCARTS", styles['SousTitreTexte']))
-        elements.append(Spacer(1, 0.2*cm))
-
-    # Ajouter le texte généré par l'IA
+    # Afficher le texte de l'IA
     if texte_ia:
         elements.extend(convertir_texte_en_paragraphes(texte_ia, styles))
 
@@ -1113,7 +1097,7 @@ def generer_rapport_pdf():
     texte_methodo = (
         "L'analyse financière s'appuie sur les données des budgets exécutés par les communes "
         "dont la source provient de la Direction Générale des Finances Publiques (DGFiP)."
-        " Elle respecte la nomenclature comptable M14/M57. Les comparaisons avec la strate démographique permettent "
+        " Elle respecte la nomenclature comptable M57. Les comparaisons avec la strate démographique permettent "
         "de situer la collectivité par rapport aux communes de taille comparable. Les ratios de niveau "
         "sont exprimés en euros par habitant. Les ratios de structure sont exprimés en %."
     )
@@ -1170,7 +1154,7 @@ def generer_rapport_pdf():
         # Ratio 10:6 = 1.67, donc pour 14cm de largeur : 14/1.67 = 8.4cm
         img = Image(graphiques['repartition_produits'], width=13*cm, height=7.8*cm)
         story.append(img)
-        story.append(Paragraph("Graphique 1 – Répartition des produits de fonctionnement", styles['Legende']))
+        story.append(Paragraph("Graphique 1 – Répartition des recettes réelles de fonctionnement", styles['Legende']))
         story.append(Spacer(1, 0.5*cm))
 
     story.append(PageBreak())
@@ -1195,7 +1179,7 @@ def generer_rapport_pdf():
         # Ratio 10:6 = 1.67
         img = Image(graphiques['repartition_charges'], width=13*cm, height=7.8*cm)
         story.append(img)
-        story.append(Paragraph("Graphique 2 – Répartition des charges de fonctionnement", styles['Legende']))
+        story.append(Paragraph("Graphique 2 – Répartition des dépenses réelles de fonctionnement", styles['Legende']))
         story.append(Spacer(1, 0.5*cm))
 
     story.append(PageBreak())

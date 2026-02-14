@@ -13,7 +13,10 @@
       "Bash(mv:*)",
       "Bash(start \"output/rapport_analyse_mono_annee.pdf\")",
       "Bash(del \"src\\converter.py\" \"src\\utils.py\" \"src\\refactor_script.py\")",
-      "Bash(del:*)"
+      "Bash(del:*)",
+      "Bash(for file in produits_fonctionnement_evolution.py charges_fonctionnement_evolution.py charges_personnel_evolution.py caf_brute_evolution.py encours_dette_evolution.py depenses_equipement_evolution.py)",
+      "Bash(do)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

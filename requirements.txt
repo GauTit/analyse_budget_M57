@@ -1,1 +1,1 @@
-pip install pandas odfpy reportlab matplotlib python-docx openai python-dotenv
+pip install pandas odfpy reportlab matplotlib python-docx openai anthropic google-generativeai python-dotenv

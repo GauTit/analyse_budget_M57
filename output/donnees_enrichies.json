@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "commune": "CHAMPAGNAC",
+    "commune": "ROSOY",
     "exercice": 2024,
-    "population": 1048,
+    "population": 1102,
     "strate": {
       "min": 500,
       "max": 2000,
@@ -12,205 +12,205 @@
   "fonctionnement": {
     "produits": {
       "total": {
-        "montant_k": 1863,
-        "par_hab": 1778,
+        "montant_k": 1234,
+        "par_hab": 1120,
         "moyenne_strate_hab": 944,
         "comparaison": {
-          "texte": "1778€/hab commune – 944€/hab Moyenne de la strate",
-          "ecart_absolu": 834,
-          "ecart_pct": 88.3,
+          "texte": "1120€/hab commune – 944€/hab Moyenne de la strate",
+          "ecart_absolu": 176,
+          "ecart_pct": 18.6,
           "niveau": "nettement supérieur à"
         }
       },
       "produits_caf": {
-        "montant_k": 1706,
-        "par_hab": 1628,
+        "montant_k": 1234,
+        "par_hab": 1120,
         "moyenne_strate_hab": 920,
         "comparaison": {
-          "texte": "1628€/hab commune – 920€/hab Moyenne de la strate",
-          "ecart_absolu": 708,
-          "ecart_pct": 77.0,
+          "texte": "1120€/hab commune – 920€/hab Moyenne de la strate",
+          "ecart_absolu": 200,
+          "ecart_pct": 21.7,
           "niveau": "nettement supérieur à"
         }
       },
       "impots_locaux": {
-        "montant_k": 551,
-        "par_hab": 525,
+        "montant_k": 632,
+        "par_hab": 573,
         "moyenne_strate_hab": 391,
-        "pct_produits_caf": 32.28,
+        "pct_produits_caf": 51.17,
         "pct_produits_caf_strate": 42.52,
         "comparaison": {
-          "texte": "525€/hab commune – 391€/hab Moyenne de la strate",
-          "ecart_absolu": 134,
-          "ecart_pct": 34.3,
+          "texte": "573€/hab commune – 391€/hab Moyenne de la strate",
+          "ecart_absolu": 182,
+          "ecart_pct": 46.5,
           "niveau": "nettement supérieur à"
         },
         "detail_fiscalite": {
           "taxe_habitation": {
-            "base_k": 308,
-            "taux_vote_pct": 27.26,
+            "base_k": 121,
+            "taux_vote_pct": 23.38,
             "taux_strate_pct": 14.13,
-            "produit_k": 84
+            "produit_k": 28
           },
           "taxe_fonciere_bati": {
-            "base_k": 894853,
-            "taux_vote_pct": 45.91,
+            "base_k": 1111,
+            "taux_vote_pct": 48.14,
             "taux_strate_pct": 35.43,
-            "produit_k": 436,
-            "produit_par_hab": 0.41603053435114506
+            "produit_k": 671,
+            "produit_par_hab": 0.6088929219600726
           },
           "taxe_fonciere_non_bati": {
-            "base_k": 27,
-            "taux_vote_pct": 111.43,
+            "base_k": 24,
+            "taux_vote_pct": 48.43,
             "taux_strate_pct": 43.97,
-            "produit_k": 30
+            "produit_k": 12
           }
         }
       },
       "autres_impots_taxes": {
-        "montant_k": 56,
-        "par_hab": 54,
+        "montant_k": 32,
+        "par_hab": 29,
         "moyenne_strate_hab": 60,
-        "pct_produits_caf": 3.3,
+        "pct_produits_caf": 2.6,
         "pct_produits_caf_strate": 6.47,
         "comparaison": {
-          "texte": "54€/hab commune – 60€/hab Moyenne de la strate",
-          "ecart_absolu": -6,
-          "ecart_pct": -10.0,
-          "niveau": "inférieur à"
+          "texte": "29€/hab commune – 60€/hab Moyenne de la strate",
+          "ecart_absolu": -31,
+          "ecart_pct": -51.7,
+          "niveau": "nettement inférieur à"
         }
       },
       "dgf": {
-        "montant_k": 474,
-        "par_hab": 452,
+        "montant_k": 157,
+        "par_hab": 142,
         "moyenne_strate_hab": 158,
-        "pct_produits_caf": 27.78,
+        "pct_produits_caf": 12.71,
         "pct_produits_caf_strate": 17.22,
         "comparaison": {
-          "texte": "452€/hab commune – 158€/hab Moyenne de la strate",
-          "ecart_absolu": 294,
-          "ecart_pct": 186.1,
-          "niveau": "nettement supérieur à"
+          "texte": "142€/hab commune – 158€/hab Moyenne de la strate",
+          "ecart_absolu": -16,
+          "ecart_pct": -10.1,
+          "niveau": "inférieur à"
         }
       },
       "produits_services_domaine": {
-        "montant_k": 51,
-        "par_hab": 49,
+        "montant_k": 93,
+        "par_hab": 84,
         "moyenne_strate_hab": 77,
-        "pct_produits_caf": 3.02,
+        "pct_produits_caf": 7.52,
         "pct_produits_caf_strate": 8.32,
         "comparaison": {
-          "texte": "49€/hab commune – 77€/hab Moyenne de la strate",
-          "ecart_absolu": -28,
-          "ecart_pct": -36.4,
-          "niveau": "nettement inférieur à"
+          "texte": "84€/hab commune – 77€/hab Moyenne de la strate",
+          "ecart_absolu": 7,
+          "ecart_pct": 9.1,
+          "niveau": "supérieur à"
         }
       }
     },
     "charges": {
       "total": {
-        "montant_k": 1407,
-        "par_hab": 1342,
+        "montant_k": 1063,
+        "par_hab": 965,
         "moyenne_strate_hab": 774,
         "comparaison": {
-          "texte": "1342€/hab commune – 774€/hab Moyenne de la strate",
-          "ecart_absolu": 568,
-          "ecart_pct": 73.4,
+          "texte": "965€/hab commune – 774€/hab Moyenne de la strate",
+          "ecart_absolu": 191,
+          "ecart_pct": 24.7,
           "niveau": "nettement supérieur à"
         }
       },
       "charges_caf": {
-        "montant_k": 1227,
-        "par_hab": 1171,
+        "montant_k": 1062,
+        "par_hab": 964,
         "moyenne_strate_hab": 738,
         "comparaison": {
-          "texte": "1171€/hab commune – 738€/hab Moyenne de la strate",
-          "ecart_absolu": 433,
-          "ecart_pct": 58.7,
+          "texte": "964€/hab commune – 738€/hab Moyenne de la strate",
+          "ecart_absolu": 226,
+          "ecart_pct": 30.6,
           "niveau": "nettement supérieur à"
         }
       },
       "charges_personnel": {
-        "montant_k": 553,
-        "par_hab": 528,
+        "montant_k": 490,
+        "par_hab": 445,
         "moyenne_strate_hab": 329,
-        "pct_charges_caf": 45.1,
+        "pct_charges_caf": 46.14,
         "pct_charges_caf_strate": 44.61,
         "comparaison": {
-          "texte": "528€/hab commune – 329€/hab Moyenne de la strate",
-          "ecart_absolu": 199,
-          "ecart_pct": 60.5,
+          "texte": "445€/hab commune – 329€/hab Moyenne de la strate",
+          "ecart_absolu": 116,
+          "ecart_pct": 35.3,
           "niveau": "nettement supérieur à"
         }
       },
       "achats_charges_externes": {
-        "montant_k": 419,
-        "par_hab": 400,
+        "montant_k": 426,
+        "par_hab": 387,
         "moyenne_strate_hab": 255,
-        "pct_charges_caf": 34.14,
+        "pct_charges_caf": 40.11,
         "pct_charges_caf_strate": 34.62,
         "comparaison": {
-          "texte": "400€/hab commune – 255€/hab Moyenne de la strate",
-          "ecart_absolu": 145,
-          "ecart_pct": 56.9,
+          "texte": "387€/hab commune – 255€/hab Moyenne de la strate",
+          "ecart_absolu": 132,
+          "ecart_pct": 51.8,
           "niveau": "nettement supérieur à"
         }
       },
       "charges_financieres": {
-        "montant_k": 30,
-        "par_hab": 28,
+        "montant_k": 58,
+        "par_hab": 53,
         "moyenne_strate_hab": 14,
-        "pct_charges_caf": 2.41,
+        "pct_charges_caf": 5.47,
         "pct_charges_caf_strate": 1.92,
         "comparaison": {
-          "texte": "28€/hab commune – 14€/hab Moyenne de la strate",
-          "ecart_absolu": 14,
-          "ecart_pct": 100.0,
+          "texte": "53€/hab commune – 14€/hab Moyenne de la strate",
+          "ecart_absolu": 39,
+          "ecart_pct": 278.6,
           "niveau": "nettement supérieur à"
         }
       },
       "contingents": {
-        "montant_k": 42,
-        "par_hab": 40,
+        "montant_k": 1,
+        "par_hab": 1,
         "moyenne_strate_hab": 46,
-        "pct_charges_caf": 3.39,
+        "pct_charges_caf": 0.09,
         "pct_charges_caf_strate": 6.25,
         "comparaison": {
-          "texte": "40€/hab commune – 46€/hab Moyenne de la strate",
-          "ecart_absolu": -6,
-          "ecart_pct": -13.0,
-          "niveau": "inférieur à"
+          "texte": "1€/hab commune – 46€/hab Moyenne de la strate",
+          "ecart_absolu": -45,
+          "ecart_pct": -97.8,
+          "niveau": "nettement inférieur à"
         }
       },
       "subventions_versees": {
-        "montant_k": 52,
-        "par_hab": 49,
+        "montant_k": 10,
+        "par_hab": 9,
         "moyenne_strate_hab": 29,
-        "pct_charges_caf": 4.21,
+        "pct_charges_caf": 0.93,
         "pct_charges_caf_strate": 3.88,
         "comparaison": {
-          "texte": "49€/hab commune – 29€/hab Moyenne de la strate",
-          "ecart_absolu": 20,
-          "ecart_pct": 69.0,
-          "niveau": "nettement supérieur à"
+          "texte": "9€/hab commune – 29€/hab Moyenne de la strate",
+          "ecart_absolu": -20,
+          "ecart_pct": -69.0,
+          "niveau": "nettement inférieur à"
         }
       }
     },
     "resultat": {
-      "montant_k": 456,
-      "par_hab": 436,
+      "montant_k": 171,
+      "par_hab": 155,
       "moyenne_strate_hab": 171,
       "comparaison": {
-        "texte": "436€/hab commune – 171€/hab Moyenne de la strate",
-        "ecart_absolu": 265,
-        "ecart_pct": 155.0,
-        "niveau": "nettement supérieur à"
+        "texte": "155€/hab commune – 171€/hab Moyenne de la strate",
+        "ecart_absolu": -16,
+        "ecart_pct": -9.4,
+        "niveau": "inférieur à"
       }
     }
   },
   "investissement": {
     "ressources": {
-      "total_k": 1115,
+      "total_k": 255,
       "emprunts": {
         "montant_k": 0,
         "par_hab": 0,
@@ -226,177 +226,180 @@
       },
       "subventions_recues": {
         "montant_k": 8,
-        "par_hab": 8,
+        "par_hab": 7,
         "moyenne_strate_hab": 121,
-        "pct_ressources": 0.71,
+        "pct_ressources": 3.19,
         "pct_ressources_strate": 26.91,
         "comparaison": {
-          "texte": "8€/hab commune – 121€/hab Moyenne de la strate",
-          "ecart_absolu": -113,
-          "ecart_pct": -93.4,
+          "texte": "7€/hab commune – 121€/hab Moyenne de la strate",
+          "ecart_absolu": -114,
+          "ecart_pct": -94.2,
           "niveau": "nettement inférieur à"
         }
       },
       "fctva": {
-        "montant_k": 67,
-        "par_hab": 64,
+        "montant_k": 5,
+        "par_hab": 4,
         "moyenne_strate_hab": 44,
-        "pct_ressources": 6.05,
+        "pct_ressources": 1.91,
         "pct_ressources_strate": 9.71,
         "comparaison": {
-          "texte": "64€/hab commune – 44€/hab Moyenne de la strate",
-          "ecart_absolu": 20,
-          "ecart_pct": 45.5,
-          "niveau": "nettement supérieur à"
+          "texte": "4€/hab commune – 44€/hab Moyenne de la strate",
+          "ecart_absolu": -40,
+          "ecart_pct": -90.9,
+          "niveau": "nettement inférieur à"
         }
       }
     },
     "emplois": {
-      "total_k": 851,
+      "total_k": 151,
       "depenses_equipement": {
-        "montant_k": 662,
-        "par_hab": 632,
+        "montant_k": 59,
+        "par_hab": 53,
         "moyenne_strate_hab": 389,
-        "pct_emplois": 77.81,
+        "pct_emplois": 38.72,
         "pct_emplois_strate": 80.11,
         "comparaison": {
-          "texte": "632€/hab commune – 389€/hab Moyenne de la strate",
-          "ecart_absolu": 243,
-          "ecart_pct": 62.5,
-          "niveau": "nettement supérieur à"
+          "texte": "53€/hab commune – 389€/hab Moyenne de la strate",
+          "ecart_absolu": -336,
+          "ecart_pct": -86.4,
+          "niveau": "nettement inférieur à"
         }
       },
       "remboursement_emprunts": {
-        "montant_k": 182,
-        "par_hab": 174,
+        "montant_k": 93,
+        "par_hab": 84,
         "moyenne_strate_hab": 73,
-        "pct_emplois": 21.43,
+        "pct_emplois": 61.28,
         "pct_emplois_strate": 15.05,
         "comparaison": {
-          "texte": "174€/hab commune – 73€/hab Moyenne de la strate",
-          "ecart_absolu": 101,
-          "ecart_pct": 138.4,
+          "texte": "84€/hab commune – 73€/hab Moyenne de la strate",
+          "ecart_absolu": 11,
+          "ecart_pct": 15.1,
           "niveau": "nettement supérieur à"
         }
       }
     },
     "financement": {
-      "besoin_financement_residuel_k": -265,
-      "besoin_financement_residuel_par_hab": -253,
-      "resultat_ensemble_k": 721,
-      "resultat_ensemble_par_hab": 688,
+      "besoin_financement_residuel_k": -104,
+      "besoin_financement_residuel_par_hab": -94,
+      "resultat_ensemble_k": 275,
+      "resultat_ensemble_par_hab": 249,
       "comparaison_resultat": {
-        "texte": "688€/hab commune – 133€/hab Moyenne de la strate",
-        "ecart_absolu": 555,
-        "ecart_pct": 417.3,
+        "texte": "249€/hab commune – 133€/hab Moyenne de la strate",
+        "ecart_absolu": 116,
+        "ecart_pct": 87.2,
         "niveau": "nettement supérieur à"
       }
     }
   },
   "autofinancement": {
     "ebf": {
-      "montant_k": 514,
-      "par_hab": 491,
+      "montant_k": 228,
+      "par_hab": 207,
       "moyenne_strate_hab": 196,
-      "pct_produits_caf": 30.15,
+      "pct_produits_caf": 18.46,
       "pct_produits_caf_strate": 21.29,
       "comparaison": {
-        "texte": "491€/hab commune – 196€/hab Moyenne de la strate",
-        "ecart_absolu": 295,
-        "ecart_pct": 150.5,
-        "niveau": "nettement supérieur à"
+        "texte": "207€/hab commune – 196€/hab Moyenne de la strate",
+        "ecart_absolu": 11,
+        "ecart_pct": 5.6,
+        "niveau": "supérieur à"
       }
     },
     "caf_brute": {
-      "montant_k": 479,
-      "par_hab": 457,
+      "montant_k": 172,
+      "par_hab": 156,
       "moyenne_strate_hab": 182,
-      "pct_produits_caf": 28.07,
+      "pct_produits_caf": 13.94,
       "pct_produits_caf_strate": 19.83,
       "comparaison": {
-        "texte": "457€/hab commune – 182€/hab Moyenne de la strate",
-        "ecart_absolu": 275,
-        "ecart_pct": 151.1,
-        "niveau": "nettement supérieur à"
+        "texte": "156€/hab commune – 182€/hab Moyenne de la strate",
+        "ecart_absolu": -26,
+        "ecart_pct": -14.3,
+        "niveau": "inférieur à"
       }
     },
     "caf_nette": {
-      "montant_k": 296,
-      "par_hab": 283,
+      "montant_k": 79,
+      "par_hab": 72,
       "moyenne_strate_hab": 109,
-      "pct_produits_caf": 17.38,
+      "pct_produits_caf": 6.42,
       "pct_produits_caf_strate": 11.88,
       "est_positive": true,
       "comparaison": {
-        "texte": "283€/hab commune – 109€/hab Moyenne de la strate",
-        "ecart_absolu": 174,
-        "ecart_pct": 159.6,
-        "niveau": "nettement supérieur à"
+        "texte": "72€/hab commune – 109€/hab Moyenne de la strate",
+        "ecart_absolu": -37,
+        "ecart_pct": -33.9,
+        "niveau": "nettement inférieur à"
       }
     }
   },
   "endettement": {
     "encours_total": {
-      "montant_k": 1074,
-      "par_hab": 1025,
+      "montant_k": 1144,
+      "par_hab": 1038,
       "moyenne_strate_hab": 560,
-      "pct_produits_caf": 62.97,
+      "pct_produits_caf": 92.66,
       "pct_produits_caf_strate": 60.88,
       "comparaison": {
-        "texte": "1025€/hab commune – 560€/hab Moyenne de la strate",
-        "ecart_absolu": 465,
-        "ecart_pct": 83.0,
+        "texte": "1038€/hab commune – 560€/hab Moyenne de la strate",
+        "ecart_absolu": 478,
+        "ecart_pct": 85.4,
         "niveau": "nettement supérieur à"
       }
     },
     "ratios": {
-      "ratio_endettement": 62.95,
+      "ratio_endettement": 92.71,
       "ratio_endettement_strate": 60.87,
-      "capacite_desendettement_annees": 2.24,
+      "capacite_desendettement_annees": 6.65,
       "capacite_desendettement_strate_annees": 3.08,
       "seuil_alerte_annees": 12,
       "est_en_alerte": false
     },
     "annuite": {
-      "montant_k": 212,
-      "par_hab": 202.0,
+      "montant_k": 151,
+      "par_hab": 137.0,
       "moyenne_strate_hab": 87,
-      "pct_produits_caf": 12.35,
+      "pct_produits_caf": 10.9,
       "pct_produits_caf_strate": 9.44,
       "detail": {
-        "charges_financieres_hab": 28,
-        "remboursement_capital_hab": 174
+        "charges_financieres_hab": 53,
+        "remboursement_capital_hab": 84
       },
       "comparaison": {
-        "texte": "202.0€/hab commune – 87€/hab Moyenne de la strate",
-        "ecart_absolu": 115.0,
-        "ecart_pct": 132.2,
+        "texte": "137.0€/hab commune – 87€/hab Moyenne de la strate",
+        "ecart_absolu": 50.0,
+        "ecart_pct": 57.5,
         "niveau": "nettement supérieur à"
       }
     },
     "fonds_roulement": {
-      "montant_k": 274,
-      "par_hab": 261,
+      "montant_k": -250,
+      "par_hab": -227,
       "moyenne_strate_hab": 557,
-      "est_positif": true,
+      "est_positif": false,
       "comparaison": {
-        "texte": "261€/hab commune – 557€/hab Moyenne de la strate",
-        "ecart_absolu": -296,
-        "ecart_pct": -53.1,
+        "texte": "-227€/hab commune – 557€/hab Moyenne de la strate",
+        "ecart_absolu": -784,
+        "ecart_pct": -140.8,
         "niveau": "nettement inférieur à"
       }
     }
   },
   "ratios_financiers": {
-    "part_charges_personnel_pct": 45.1,
-    "taux_epargne_brute_pct": 28.1,
-    "taux_epargne_nette_pct": 17.4,
-    "capacite_desendettement_annees": 2.2,
-    "ratio_endettement_pct": 63.0,
-    "ratio_effort_equipement_pct": 38.8,
-    "ratio_autonomie_fiscale_pct": 32.3,
-    "ratio_rigidite_fonctionnement_pct": 34.2,
-    "taux_couverture_investissement_pct": 44.7,
-    "part_achats_externes_pct": 34.1
+    "part_charges_personnel_pct": 46.1,
+    "taux_epargne_brute_pct": 13.9,
+    "taux_epargne_nette_pct": 6.4,
+    "capacite_desendettement_annees": 6.7,
+    "ratio_endettement_pct": 92.7,
+    "ratio_effort_equipement_pct": 4.8,
+    "ratio_autonomie_fiscale_pct": 51.2,
+    "ratio_rigidite_fonctionnement_pct": 44.4,
+    "coefficient_mobilisation_caf_pct": 54.1,
+    "taux_couverture_depenses_equipement_pct": 133.9,
+    "taux_autofinancement_investissement_productif_pct": 136.2,
+    "part_achats_externes_pct": 40.1,
+    "taux_couverture_investissement_pct": 133.9
   }
 }

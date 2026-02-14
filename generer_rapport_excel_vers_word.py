@@ -317,7 +317,7 @@ def generer_rapport_word():
         "Le présent rapport d'analyse budgétaire a pour objet d'apprécier la situation financière "
         "de la collectivité au titre de l'exercice budgétaire considéré. L'analyse porte sur les "
         "opérations de fonctionnement et d'investissement, la capacité d'autofinancement, l'endettement "
-        "et les principaux ratios financiers. Les données sont systématiquement comparées à la moyenne "
+        "et les équilibres financiers. Les données sont systématiquement comparées à la moyenne "
         "de la strate démographique de référence."
     )
     doc.add_paragraph(texte_objet, style='Corps Texte')
@@ -328,7 +328,7 @@ def generer_rapport_word():
     texte_methodo = (
         "L'analyse financière s'appuie sur les données des budgets exécutés par les communes "
         "dont la source provient de la Direction Générale des Finances Publiques (DGFiP)."
-        " Elle respecte la nomenclature comptable M14/M57. Les comparaisons avec la strate démographique permettent "
+        " Elle respecte la nomenclature comptable M57. Les comparaisons avec la strate démographique permettent "
         "de situer la collectivité par rapport aux communes de taille comparable. Les ratios de niveau "
         "sont exprimés en euros par habitant. Les ratios de structure sont exprimés en %."
     )
@@ -375,7 +375,7 @@ def generer_rapport_word():
     # Graphique répartition produits
     if 'repartition_produits' in graphiques:
         doc.add_picture(graphiques['repartition_produits'], width=Inches(5.5))
-        doc.add_paragraph("Graphique 1 – Répartition des produits de fonctionnement", style='Legende')
+        doc.add_paragraph("Graphique 1 – Répartition des recettes réelles de fonctionnement", style='Legende')
 
     doc.add_page_break()
 
@@ -393,7 +393,7 @@ def generer_rapport_word():
     # Graphique répartition charges
     if 'repartition_charges' in graphiques:
         doc.add_picture(graphiques['repartition_charges'], width=Inches(5.5))
-        doc.add_paragraph("Graphique 2 – Répartition des charges de fonctionnement", style='Legende')
+        doc.add_paragraph("Graphique 2 – Répartition des dépenses réelles de fonctionnement", style='Legende')
 
     doc.add_page_break()
 

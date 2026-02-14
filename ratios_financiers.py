@@ -93,15 +93,52 @@ def calculer_ratio_rigidite_fonctionnement(charges_personnel_k, charges_financie
     return round((charges_rigides_k / produits_caf_k) * 100, 1)
 
 
-def calculer_taux_couverture_investissement(caf_nette_k, depenses_equipement_k):
+def calculer_taux_couverture_depenses_equipement(caf_nette_k, depenses_equipement_k):
     """
-    Calcule le taux de couverture de l'investissement par l'autofinancement
+    Calcule le taux de couverture des dépenses d'équipement par la CAF nette
     Ratio : CAF nette / dépenses équipement * 100
-    Mesure la capacité à financer l'investissement par l'épargne propre
+    Mesure la capacité à financer les dépenses d'équipement par l'autofinancement net
+
+    IMPORTANT (doctrine M57) :
+    - Ce ratio mesure uniquement la couverture des dépenses d'équipement (immobilisations)
+    - Il ne couvre pas l'ensemble de la section d'investissement
     """
     if not depenses_equipement_k or depenses_equipement_k == 0:
         return None
     return round((caf_nette_k / depenses_equipement_k) * 100, 1)
+
+
+def calculer_coefficient_mobilisation_caf(remboursement_capital_k, caf_brute_k):
+    """
+    Calcule le coefficient de mobilisation de la CAF
+    Ratio : Remboursement capital / CAF brute * 100
+    Mesure quelle part de l'épargne est 'prélevée' par la dette avant même de pouvoir investir
+
+    Interprétation :
+    - < 50% : Marge de manœuvre confortable pour l'investissement
+    - 50-70% : Mobilisation modérée de l'épargne
+    - > 70% : Forte mobilisation, capacité d'investissement réduite
+    """
+    if not caf_brute_k or caf_brute_k == 0:
+        return None
+    return round((remboursement_capital_k / caf_brute_k) * 100, 1)
+
+
+def calculer_taux_autofinancement_investissement_productif(caf_nette_k, total_emplois_investissement_k, remboursement_capital_k):
+    """
+    Calcule le taux d'autofinancement de l'investissement productif par la CAF nette
+    Ratio : CAF nette / (Total emplois investissement - Remboursement capital) * 100
+
+    IMPORTANT (doctrine M57) :
+    - La CAF nette = CAF brute - Remboursement capital
+    - Elle finance les emplois d'investissement hors remboursement capital
+    - Ces emplois incluent : dépenses d'équipement + subventions d'équipement versées + opérations financières
+    """
+    emplois_productifs_k = (total_emplois_investissement_k or 0) - (remboursement_capital_k or 0)
+
+    if not emplois_productifs_k or emplois_productifs_k == 0:
+        return None
+    return round((caf_nette_k / emplois_productifs_k) * 100, 1)
 
 
 def calculer_ratio_achats_externes(achats_charges_externes_k, charges_caf_k):
@@ -133,6 +170,8 @@ def calculer_tous_les_ratios(data_json):
     caf_nette_k = data_json.get('autofinancement', {}).get('caf_nette', {}).get('montant_k', 0)
 
     depenses_equipement_k = data_json.get('investissement', {}).get('emplois', {}).get('depenses_equipement', {}).get('montant_k', 0)
+    total_emplois_investissement_k = data_json.get('investissement', {}).get('emplois', {}).get('total_k', 0)
+    remboursement_capital_k = data_json.get('investissement', {}).get('emplois', {}).get('remboursement_emprunts', {}).get('montant_k', 0)
 
     encours_dette_k = data_json.get('endettement', {}).get('encours_total', {}).get('montant_k', 0)
 
@@ -148,8 +187,16 @@ def calculer_tous_les_ratios(data_json):
         'ratio_rigidite_fonctionnement_pct': calculer_ratio_rigidite_fonctionnement(
             charges_personnel_k, charges_financieres_k, produits_caf_k
         ),
-        'taux_couverture_investissement_pct': calculer_taux_couverture_investissement(caf_nette_k, depenses_equipement_k),
-        'part_achats_externes_pct': calculer_ratio_achats_externes(achats_charges_externes_k, charges_caf_k)
+        'coefficient_mobilisation_caf_pct': calculer_coefficient_mobilisation_caf(remboursement_capital_k, caf_brute_k),
+        # Ratios conformes à la doctrine M57
+        'taux_couverture_depenses_equipement_pct': calculer_taux_couverture_depenses_equipement(caf_nette_k, depenses_equipement_k),
+        'taux_autofinancement_investissement_productif_pct': calculer_taux_autofinancement_investissement_productif(
+            caf_nette_k, total_emplois_investissement_k, remboursement_capital_k
+        ),
+        'part_achats_externes_pct': calculer_ratio_achats_externes(achats_charges_externes_k, charges_caf_k),
+
+        # DEPRECATED : Ancien nom conservé pour rétrocompatibilité
+        'taux_couverture_investissement_pct': calculer_taux_couverture_depenses_equipement(caf_nette_k, depenses_equipement_k)
     }
 
     return ratios

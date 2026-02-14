@@ -1,62 +1,48 @@
 """
-Script pour générer les réponses aux prompts en utilisant l'API OpenAI GPT-4.1 mini
-au lieu de copier-coller manuellement les réponses depuis l'Excel.
+Script pour générer les réponses aux prompts en utilisant une API LLM
+(OpenAI, Anthropic/Claude, DeepSeek, Gemini, etc.) au lieu de copier-coller
+manuellement les réponses depuis l'Excel.
 
 Usage:
     python generer_reponses_avec_openai.py
 
 IMPORTANT : Avant d'exécuter ce script, assurez-vous d'avoir :
-1. Installé la bibliothèque OpenAI : pip install openai
-2. Configuré votre clé API OpenAI en variable d'environnement : OPENAI_API_KEY
+1. Configuré votre fichier .env avec le provider LLM et la clé API
+2. Installé les dépendances : pip install -r requirements.txt
+
+Pour changer de provider LLM, modifiez LLM_PROVIDER dans votre fichier .env :
+    LLM_PROVIDER=openai     # Pour OpenAI GPT
+    LLM_PROVIDER=anthropic  # Pour Anthropic Claude
+    LLM_PROVIDER=deepseek   # Pour DeepSeek
+    LLM_PROVIDER=gemini     # Pour Google Gemini
 """
 
 import pandas as pd
-from openai import OpenAI
 import os
 import time
+from llm_client import creer_client_llm, afficher_configuration
 
 # Configuration
 FICHIER_EXCEL = "PROMPTS_RAPPORT_COMPLET_ENRICHIS.xlsx"
 FICHIER_EXCEL_SORTIE = "PROMPTS_RAPPORT_COMPLET_ENRICHIS.xlsx"
 
-# Modèle à utiliser
-MODEL = "gpt-4.1-mini"
-
-# Paramètres de l'API
-TEMPERATURE = 0.0
-MAX_TOKENS = 2000
-
 # Délai entre les requêtes pour éviter les rate limits (en secondes)
 DELAI_ENTRE_REQUETES = 1
 
 
-def initialiser_client_openai():
-    """Initialise le client OpenAI"""
-    api_key = os.getenv("OPENAI_API_KEY")
-
-    if not api_key:
-        raise ValueError(
-            "La clé API OpenAI n'est pas configurée. "
-            "Veuillez définir la variable d'environnement OPENAI_API_KEY."
-        )
-
-    return OpenAI(api_key=api_key)
-
-
-def generer_reponse_openai(client, prompt):
-    """Génère une réponse en utilisant l'API OpenAI GPT-4.1 mini"""
+def initialiser_client_llm():
+    """Initialise le client LLM (OpenAI, Anthropic, etc.)"""
     try:
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            temperature=TEMPERATURE,
-            max_tokens=MAX_TOKENS
-        )
+        client = creer_client_llm()
+        return client
+    except Exception as e:
+        raise ValueError(f"Impossible d'initialiser le client LLM : {e}")
 
-        return response.choices[0].message.content
 
+def generer_reponse_llm(client, prompt):
+    """Génère une réponse en utilisant l'API LLM configurée"""
+    try:
+        return client.generer_reponse(prompt)
     except Exception as e:
         print(f"  [ERREUR] Erreur lors de l'appel API : {e}")
         return None
@@ -71,18 +57,22 @@ def generer_toutes_reponses(force=False, type_rapport=None):
     """
 
     print("\n" + "="*80)
-    print("GÉNÉRATION DES RÉPONSES AVEC OPENAI GPT-4.1 MINI")
+    print("GÉNÉRATION DES RÉPONSES AVEC API LLM")
     if force:
         print("MODE : Régénération forcée de toutes les réponses")
     if type_rapport:
         print(f"TYPE : {type_rapport}")
     print("="*80 + "\n")
 
-    # 1. Initialiser le client OpenAI
-    print("[ÉTAPE 1/4] Initialisation du client OpenAI...")
+    # Afficher la configuration LLM
+    afficher_configuration()
+    print()
+
+    # 1. Initialiser le client LLM
+    print("[ÉTAPE 1/4] Initialisation du client LLM...")
     try:
-        client = initialiser_client_openai()
-        print("  [OK] Client OpenAI initialisé")
+        client = initialiser_client_llm()
+        print(f"  [OK] Client initialisé : {client.get_provider_name()}")
     except ValueError as e:
         print(f"  [ERREUR] {e}")
         return
@@ -133,7 +123,7 @@ def generer_toutes_reponses(force=False, type_rapport=None):
         print(f"\n  [{nb_reponses_generees + 1}/{nb_lignes}] {nom_poste} ({type_rapport})...")
 
         # Générer la réponse
-        reponse = generer_reponse_openai(client, prompt)
+        reponse = generer_reponse_llm(client, prompt)
 
         if reponse:
             # Écrire la réponse dans le DataFrame
